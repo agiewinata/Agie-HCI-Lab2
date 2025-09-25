@@ -6,7 +6,11 @@
     <title>Document</title>
 </head>
 <body>
-    <H1>The city of Bandung:</H1>
+    <header>
+        <H1>The city of Bandung:</H1>
+    </header>
+
+    <nav>
     <H4>Table of content:</H4>
     <Ul>
         <li>
@@ -19,10 +23,13 @@
             <a href="#attraction">Attraction</a>
         </li>
     </ul>
-    
+    <nav>
+
+<article>
     <img src="../images/Bandung_skyline.jpg" alt="Bandung skyline" width="500">
 
-    <h2 id="overview">Overview:</h2>
+    <section>
+    <h2 id="overview">Overview:</h2>    
     <p>Bandung is the capital city of the West Java province of Indonesia. 
         Located on the island of Java, the city is the third largest city in Indonesia 
         and Greater Bandung (Bandung Basin Metropolitan Area / BBMA) is the country's 
@@ -33,8 +40,40 @@
         The city lies in a river basin surrounded by volcanic mountains that provide a 
         natural defense system, which was the primary reason for the Dutch East Indies government's 
         plan to move the capital from Batavia (modern-day Jakarta) to Bandung.</p>
+    </section>
     
-        <img src="..\images\alun2_bandung.jpg" alt="alun-alun bandung" width="500" height="300">
+    <section>
+<table border="1">
+    <caption>Bandung Overview</caption>
+    <thead>
+        <tr>
+        <th>Location</th>
+        <th>Details</th>
+    </tr>
+    </thead>
+    <tbody>
+        <tr>
+        <td>Country</td>
+        <td>Indonesia</td>
+    </tr>
+    <tr>
+        <td>Province</td>
+        <td>West Java</td>
+    </tr>
+    <tr>
+        <td>Population (mid-2024 est.)</td>
+        <td>2,528,160</td>
+    </tr>
+    <tr>
+        <td>Elevation</td>
+        <td>768 m (2,520 ft) above sea level</td>
+    </tr>
+</tbody>
+</table>
+
+<br>
+    <section>
+    <img src="..\images\alun2_bandung.jpg" alt="alun-alun bandung" width="500" height="300">
 
     <h2 id="history">History:</h2>
     <p>The official name of the city during the colonial Dutch East Indies period was Bandoeng. 
@@ -55,8 +94,11 @@
         meeting place) in the classical Sundanese orientation,with the pendopo facing Tangkuban 
         Perahu mountain, which was believed to have a mystical ambience. In 1856, Bandung also 
         became the capital of the Preanger Regencies Residency, which it would remain until 1925.</p>
+    </section>
 
-        <img src="..\images\tangkuban_perahu.jpg" alt="tangkuban_perahu" width="500">
+    <section>
+    <img src="..\images\tangkuban_perahu.jpg" alt="tangkuban_perahu" width="500">
+
     <h2 id="attraction"> Attraction </h2>
     <p>
         Significant tourist sites near Bandung include the Tangkuban Prahu volcano crater to the 
@@ -74,6 +116,44 @@
         Museum of Bandung, the Indonesia Postal Museum, Sri Baduga Museum, and the Asian-African 
         Conference Museum.The city government operates Bandros, a tourist bus, since 2014.
     </p>
+    </section>
+<article>
+
+<Section>
+    <h2>Share your thoughts!</h2>
+    <form action="#" method="post"></form>
+    <label for="Name">Enter your full name:</label>
+    <br />
+        <input 
+        type="text"
+        id = "Name"
+        name = "Name"
+        placeholder="Enter your name please"
+        >
+    <br>
+    <Label for="Comment_Date">Date of Comment:</Label>
+    <br>
+    <input 
+    type="date"
+    id="Comment_Date"
+    name="Comment_Date"
+    >
+    <br>
+    <label for="Comments">Your Comments:</label>
+    <br/>
+    <textarea 
+    name= "Comments" 
+    id= "Comments"
+    rows = "5"
+    col = "40"
+    placeholder="Your Comments go here"
+    ></textarea>
+    <br>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+    </form>
+    <br>
+</Section>
 
     <a href="page2.html">references</a>
 </body>
